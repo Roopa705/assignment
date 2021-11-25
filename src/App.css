@@ -1,0 +1,42 @@
+body{
+  background: #232323;
+  color: white;
+}
+input , select{
+  background:#3F3F3F !important;
+  color: white !important;
+  border: none  !important;
+}
+td , th{
+  padding: 0.6rem !important;
+  vertical-align: middle;
+}
+thead{
+  background: #535353 !important;
+}
+
+
+.form {
+  position: relative
+}
+.form .fa-search {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  color: #9ca3af
+}
+.form-input {
+  height: 45px;
+  text-indent: 33px;
+  border-radius: 10px
+}
+.form-input:focus {
+  box-shadow: none;
+  border: none
+}
+.dropdown-item:hover{
+  color: black !important;
+}
+.MuiStepLabel-label{
+  color: white !important;
+}
